@@ -55,12 +55,12 @@ def set_bg_from_local(img_path):
         unsafe_allow_html=True
     )
 
-set_bg_from_local(r"C:\Users\sathwik para\Downloads\ML project\Pnr Prediction\trainlhb.jpg")
+set_bg_from_local("trainlhb.jpg")
 
 
 
 # Call the function early in your code
-set_bg_from_local("C:/Users/sathwik para/Downloads/ML project/Pnr Prediction/trainlhb.jpg")
+set_bg_from_local("trainlhb.jpg")
 
 # ---------- FUNCTIONS ----------
 def image_to_base64(image):
