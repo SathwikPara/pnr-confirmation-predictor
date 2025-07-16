@@ -72,7 +72,7 @@ set_bg_from_local("trainlhb.jpg")
 st.markdown("""
 <style>
 label, .stTextInput label {
-    color: navy !important;         /* Change text color to navy blue */
+    color: #00bfff !important; /* Change text color to navy blue */
     font-size: 20px !important;     /* Increase font size */
     font-weight: bold;
 }
