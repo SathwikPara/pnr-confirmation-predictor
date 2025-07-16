@@ -56,6 +56,14 @@ def set_bg_from_local(img_path):
     )
 
 set_bg_from_local("trainlhb.jpg")
+st.markdown("""
+<style>
+    label, .stTextInput label {
+        color: #00bfff !important; /* sky blue */
+        font-weight: bold;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 
 
@@ -144,10 +152,11 @@ if pnr_input:
 # ---------- FOOTER ----------
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
-    "<small style='color:gray;'>🔒 This is a demo ML app. Predictions are based on mock data and not real-time IRCTC status.</small>",
+    "<small style='color:#00bfff;'>🔒 This is a demo ML app. Predictions are based on mock data and not real-time IRCTC status.</small>",
     unsafe_allow_html=True
+
 )
-st.markdown("<p style='text-align:center; color:gray;'>👨‍💻 Made by <b>Sathwik Para</b></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:#00bfff;'>👨‍💻 Made by <b>Sathwik Para</b></p>", unsafe_allow_html=True)
 
 st.markdown("""
 <!-- SEO TAGS -->
