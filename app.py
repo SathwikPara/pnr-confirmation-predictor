@@ -69,6 +69,16 @@ st.markdown("""
 
 # Call the function early in your code
 set_bg_from_local("trainlhb.jpg")
+st.markdown("""
+<style>
+label, .stTextInput label {
+    color: navy !important;         /* Change text color to navy blue */
+    font-size: 20px !important;     /* Increase font size */
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 # ---------- FUNCTIONS ----------
 def image_to_base64(image):
