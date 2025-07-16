@@ -148,3 +148,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown("<p style='text-align:center; color:gray;'>👨‍💻 Made by <b>Sathwik Para</b></p>", unsafe_allow_html=True)
+
+st.markdown("""
+<!-- SEO TAGS -->
+<meta name="title" content="Free PNR Confirmation Predictor | IRCTC Train Ticket Chance Checker">
+<meta name="description" content="Enter your 10-digit PNR number and check real-time ticket confirmation chances. Free IRCTC tool. No login needed.">
+<meta name="keywords" content="PNR, ticket confirmation, Indian Railway, IRCTC, predictor, train booking, ticket status">
+""", unsafe_allow_html=True)
+
