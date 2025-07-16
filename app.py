@@ -99,7 +99,7 @@ df = generate_dataset()
 model = train_model(df)
 
 # ---------- LOAD LOGO ----------
-logo = Image.open(r"C:\Users\sathwik para\Downloads\ML project\Pnr Prediction\Indian_Railways.png")  # Your logo file
+logo = Image.open("Indian_Railways.png") # Your logo file
 logo_base64 = image_to_base64(logo)
 
 # ---------- HEADER UI ----------
